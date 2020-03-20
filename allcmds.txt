@@ -1,0 +1,112 @@
+    1  sudo apt install git-all
+    2  echo "hello"
+    3  mkdir Demo
+    4  cd Demo
+    5  touch hello.sh
+    6  cat hello.sh
+    7  cat >>hello.sh
+    8  cat hello.sh
+    9  ./hello.sh
+   10  ls
+   11  ls -l
+   12  chmod +x hello.sh
+   13  ls -l
+   14  ./hello.sh
+   15  git init
+   16  add hello.sh
+   17  git add hello.sh
+   18  git log
+   19  git status
+   20  git commit -m "i added helllooo prgram"
+   21  ls -al
+   22  nano copyfiles.sh
+   23  ./copyfiles.sh
+   24  clear
+   25  touch abc.txt def.txt
+   26  ls
+   27  ls *.txt
+   28  for file in 'ls *.txt'; do  echo $file; done
+   29  for file in 'ls *.txt
+   30  do
+   31  folderName='echo $file | awk -F. '{print $1}'';
+   32  for file in 'ls *.txt
+   33  do
+   34  folderName='echo $file | awk -F. '{print $1}'';
+   35  for file in 'ls *.txt'; do folderName=echo $file | awk -F. '{print $1}';
+   36  ls
+   37  for file in 'ls *.txt'; do folderName=echo $file | awk -F. '{print $1}'; mkdir $foldereName; done
+   38  mkdir --help
+   39  ./copyfiles.sh
+   40  chmod+x copyfiles.sh
+   41  chmod +x copyfiles.sh
+   42  nano copyfiles.sh
+   43  nano -T 3 copyfiles.sh
+   44  ./copyfiles
+   45  ./copyfiles.sh
+   46  nano -T 3 copyfiles.sh
+   47  ./copyfiles.sh
+   48  nano -T 3 copyfiles.sh
+   49  ./copyfiles.sh
+   50  ((random))
+   51  RANDOM
+   52  (( random ))
+   53  echo $random
+   54  echo $RANDOM
+   55  RANDOM%10
+   56  echo RANDOM%10
+   57  echo (( RANDOM%10 ))
+   58  echo $(( RANDOM%2 ))
+   59  history
+   60  history > xxx.txt
+   61  pwd
+   62  ls
+   63  touch abc.txt def.txt
+   64  ls
+   65  touch abc.txt def.txt
+   66  ls
+   67  ls.txt
+   68  for file in 'ls *.txt'; do  folderName=`echo $file | awk -F. '{print $1}'`; echo $folderName; done
+   69  for file in 'ls *.txt'; do folderName=`echo $file | awk -F. '{print $1}'`; mkdir $folderName; done
+   70  ls -p
+   71  for file in 'ls *.txt'; do
+   72  ls
+   73  for file in 'ls *.txt'; do folderName=`echo $file | awk -F. '{print $1}'`; mkdir $folderName; done
+   74  for file in 'ls *.txt'; do  folderName=`echo $file | awk -F. '{print $1}'`; rm -r $folderName; mkdir $folderName; cp $folderName; done
+   75  for file in 'ls *.txt'; do folderName=`echo $file | awk -F. '{print $1}'`; rm -r $folderName; mkdir $folderName; cp $file $folderName; done
+   76  ls abc def
+   77  for file in 'ls *.txt'; do folderName=`echo $file | awk -F. '{print $1}'`; rm -r $folderName; mkdir $folderName; cp $file $folderName; done
+   78  ls abc def
+   79  for file in 'ls *.txt'; do folderName=`echo $file | awk -F. '{print $1}'`; echo $folderName; done
+   80  for file in 'ls *.txt'; do folderName=`echo $file | awk -F. '{print $1}'`; mkdir $folderName; cp $file $folderName; echo Copied $file to $folderName/; done
+   81  ls -p abc/
+   82  ls -p def/
+   83  mkdir def
+   84  ls *.def
+   85  ls *.txt
+   86  for file in 'ls *.txt'; do folderName=`echo $file | awk -F. '{print $1}'`; echo $folderName; done
+   87  for file in 'ls *.txt'; do folderName=`echo $file | awk -F. '{print $1}'`; echo $folderName;
+   88  for file in 'ls *.txt'; do folderName=`echo $file | awk -F. '{print $1}'`; mkdir $folderName; cp $file $folderName; echo Copied $file to $folderName/; done
+   89  ls -p
+   90  ls -p abc/
+   91  ls -p def/
+   92  ls *.txt
+   93  for file in 'ls *.txt'; do echo $file; done
+   94  for file in 'ls *.txt'; do folderName=`echo $file |awk -F. '{print $1}'`; echo $folderName; done
+   95  ls -p
+   96  ls -p abc/
+   97  ls -p def/
+   98  for file in 'ls *.txt'; do folderName=`echo $file |awk -F. '{print $1}'`; echo $folderName; done
+   99  for file in 'ls *.txt'; do folderName=`echo $file |awk -F. '{print $1}'`; rm -r $folderName; mkdir $folderName; cp $file to $folderName; done
+  100  ls abc def
+  101  less forloop.sh
+  102  nano copyfiles.sh
+  103  less copyfiles.sh
+  104  cat copyfiles.sh
+  105  history
+  106  pwd
+  107  history > allcmds.txt
+  108  cd thesis
+  109  ls -F thesis
+  110  mkdir CMDS
+  111  cd CMDS
+  112  history > allcmds.txt
